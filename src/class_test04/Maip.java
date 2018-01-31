@@ -6,7 +6,7 @@ public class Maip implements Runnable {
 	public void run() {
 		while(count>0) {
 			synchronized (obj) {
-				if(count==0) {
+				if(count==0) {//doublecheck
 					break;
 				}
 				try {
