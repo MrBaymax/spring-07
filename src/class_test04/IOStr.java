@@ -1,4 +1,5 @@
 package class_test04;
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -44,6 +45,7 @@ public class IOStr {
 		wr.close();*/
 		/*InputStream in = new FileInputStream(file);
 		InputStreamReader isr=new InputStreamReader(in);	*/
+//		BufferedReader br=new BufferedReader(in)
 		
 	}
 }
